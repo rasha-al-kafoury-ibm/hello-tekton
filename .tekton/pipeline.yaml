@@ -16,7 +16,7 @@ spec:
       description: The IBM Cloud Kubernetes cluster name
     - name: registryRegion
       description: the ibmcloud registry region
-      default: us-south
+      default: eu-de
     - name: clusterRegion
       description: The IBM Cloud Kubernetes cluster region
       default: us-south
