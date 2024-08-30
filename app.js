@@ -25,8 +25,8 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send("Welcome to IBM Cloud DevOps with Tekton!!! Let's try the pipeline by committing a change in Github on 7th Jan.");
+  res.send("Welcome to IBM Cloud DevOps with Tekton. Let's go use the Continuous Delivery Service");
 });
 
 app.listen(PORT);
-console.log('Application Running on port' + PORT);
+console.log(' Application Running on port' + PORT);
